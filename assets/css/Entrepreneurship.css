@@ -1,0 +1,290 @@
+ *{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+} 
+
+
+.sticky {
+   
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+  }
+  .sticky>h1{
+    margin-left: 100px;
+
+  }
+  .why{
+    text-align: center;
+  }
+  .display{
+    display: flex;
+    margin-left: 80px;
+  }
+  .one{
+    width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 520px;
+  
+    
+  }
+  .two{
+    
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 615px;
+    margin-left: 50px;
+
+  }
+  .three{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 500px;
+    margin-left: 50px;
+  }
+  .display2{
+    display: flex;
+    margin-left: 80px;
+  }
+  .four{
+    width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 520px;
+  margin-top: 20px;
+  margin-top: -60px;
+  }
+  .five{
+    width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 590px;
+  margin-left: 50px;
+  margin-top: 20px;
+  }
+  .six{
+    width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 520px;
+  margin-left: 50px;
+  margin-top: -90px;
+  }
+  .display3{
+    display: flex;
+    margin-left: 80px;
+  }
+  .seveen{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   height: 520px;
+   margin-top: -120px;
+    
+  }
+  .eight{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin-left: 50px;
+    margin-top: 20px;
+
+
+  }
+  .nine{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin-left: 50px;
+    margin-top: -150px;
+    height: 500px;
+  }
+  .center{
+    text-align: center;
+  }
+  .display4{
+    display: flex;
+    margin-left: 80px;
+  }
+  .ten{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 20px;
+  }
+  .eleven{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+  }
+  .tweleve{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+  }
+  .thirteen{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+  }
+  .display4 h3{
+    padding: 20px;
+
+  }
+  .center2{
+    text-align: center;
+  }
+  .display5{
+    display: flex;
+    margin-left: 80px;
+  }
+  .fourteen{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .fifteen{
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+
+  }
+  .sixteen{
+    width: 350px;
+    height: 530px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+
+  }
+  .display6{
+    display: flex;
+    margin-left: 80px;
+  }
+  .seventeen{
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -30px;
+    
+  }
+  .eighteen{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .nineteen{
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .display7{
+    display: flex;
+    margin-left: 80px;
+  }
+  .twenty{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -200px;
+    
+  }
+  .twentyone{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-top: -200px;
+  }
+  .display7 h2{
+    padding: 20px;
+  }
+  
+  /* laptab */
+
+  @media screen and (min-width:769px) and (max-width:1025px){
+
+    .one,.two,.three, .four,.five,.six,.seveen,.eight,.nine, .ten,.eleven,.tweleve,.thirteen,.fourteen,.fifteen,.sixteen,.seventeen,.eighteen,.nineteen,.twenty,.twentyone{
+      width: 250px;
+    }
+
+    .one>img,.two>img,.three>img, .four>img,.five>img,.six>img,.seveen>img,.eight>img,.nine>img, .ten>img,.eleven>img,.tweleve>img,.thirteen>img,.fourteen>img,.fifteen>img,.sixteen>img,.seventeen>img,.eighteen>img,.nineteen>img,.twenty>img,.twentyone>img{
+      width: 250px;
+    }
+    
+    .ten>p{
+      text-align: justify;
+      margin-left: 4px;
+    }
+
+    .fourteen{
+      height: 600px;
+    }
+    .fourteen>p{
+      text-align: justify;
+     
+    }
+    .seventeen{
+      margin-top: 30px;
+    }
+    .fifteen{
+      height: 650px;
+    }
+    iframe{
+      width: 250px;
+    }
+    
+  }
+  
+  /* tablet */
+
+  @media screen and (min-width:426px) and (max-width:769px) {
+    .one,.two,.three, .four,.five,.six,.seveen,.eight,.nine, .ten,.eleven,.tweleve,.thirteen,.fourteen,.fifteen,.sixteen,.seventeen,.eighteen,.nineteen,.twenty,.twentyone{
+      width: 500px;
+    }
+    .one>img,.two>img,.three>img, .four>img,.five>img,.six>img,.seveen>img,.eight>img,.nine>img, .ten>img,.eleven>img,.tweleve>img,.thirteen>img,.fourteen>img,.fifteen>img,.sixteen>img,.seventeen>img,.eighteen>img,.nineteen>img,.twenty>img,.twentyone>img{
+      width: 500px;
+    }
+    .display{
+      display: block;
+    }
+     
+  }
+
+  /* mobile */
+  @media screen and (max-width:426px) {
+
+    .display{
+      display: block;
+    }
+  }

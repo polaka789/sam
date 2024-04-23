@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.div1{
+    margin-left: 100px;
+
+}
+.div2{
+    margin-left: 100px;
+}
+.div3,.div4,.joint,.Training,.div5,.div6,.dropdown,.dp2,.dp3{
+    margin-left: 100px;
+}
+
+
+.box{
+    display: flex;
+    background-color: rgb(252, 252, 193);
+    height: 100px;
+    margin-left: 100px;
+}
+.b1{
+    width: 300px;
+    height: 100px;
+    
+}
+.b2{
+    width: 300px;
+    height: 100px;
+    
+}
+.b3{
+    width: 300px;
+    height: 100px;
+    
+}
+.b4{
+    width: 300px;
+    height: 100px;
+    
+}
+marquee > img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+}
+#flx{
+    display: flex;
+margin-left: 100px;
+text-align: justify;
+background-color: rgb(236, 216, 236);
+}
+
+.flx2{
+    display: flex;
+    margin-left: 100px;
+text-align: justify;
+background-color: rgb(236, 216, 236);
+}
+button{
+    width: 150px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.career,.live{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+.career{
+    display: flex;
+}
+.joint{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.live{
+    display: flex;
+}
+.Training{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Guest{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.dropdown-content{
+    display:none;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dc2{
+    display: none;
+}
+.dp2:hover .dc2{
+    display: block;
+}
+.dc3{
+    display: none;
+}
+.dp3:hover .dc3{
+    display: block;
+}
+.dc4{
+    display: none;
+}
+.dp4:hover .dc4{
+    display: block;
+}
+.dc5{
+    display: none;
+}
+.dp5:hover .dc5{
+    display: block;
+}
+.dc6{
+    display: none;
+}
+.dp6:hover .dc6{
+    display: block;
+}
+.dc7{
+    display: none;
+}
+.dp7:hover .dc7{
+    display: block;
+}
+
+iframe{
+    margin-left: 100px;
+}
+p{
+    font-size: 20px;
+}
+.glance{
+
+    display: flex;
+    margin-left: 200px;
+
+}
+.glance h3{
+    margin-left: -100px;
+    
+}
+.placement1{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+.placement2{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+.placement3{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+.placement4{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.placement5{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.knowmore{
+    color: orange;
+}
+p{
+    font-size: 20px;
+}
+/* mobile */
+@media screen and (max-width:426px) {
+.div1,iframe{
+margin-left: 20px;
+}
+iframe{
+width: 92%;
+}
+.box{
+     flex-direction: column;
+    width: 100%;
+    background-color: rgb(252, 252, 193);
+    
+} 
+.b1,.b2,.b3,.b4{
+    background-color: rgb(252, 252, 193);
+    margin-left: -30px;
+} 
+.div2{
+    margin-top: 250px;
+}
+
+#flx{
+    flex-direction: column;
+    margin-right: 100px;
+}
+.image1{
+    margin-left: 15px;
+}
+.flx2{
+    flex-direction: column;
+    margin-right: 100px;
+}
+.div4{
+    text-align: justify;
+    width: 70%;
+}
+.career,.joint,.live,.Training,.Guest{
+    flex-direction: column;
+}
+.car>img{
+   margin-left: -50px;
+   width: 100%;
+}
+.enhancement{
+    margin-left: -50px;
+}
+.joint>div>img{
+    /* margin-left: -50px; */
+    width: 100%;
+ }
+ .joint>div>h4{
+     /* margin-left: -50px; */
+ }
+ .live>div>img,h4,p{
+    /* margin-left: -50px; */
+   width: 100%;
+ }
+ .Training>div>img{
+    /* margin-left: -50px; */
+    width: 100%;
+
+}
+   
+ .Guest>div>img{
+    width: 100%;
+    margin-left: -50px;
+
+ }
+}
+ /* tabview */
+ 
+@media screen and (min-width:426px) and (max-width:769px) {
+    .image1>img{
+        margin-left: -50px;
+
+    }
+   
+    
+}
+
+

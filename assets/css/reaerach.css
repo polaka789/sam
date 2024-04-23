@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.if{
+    margin-left: 100px;
+}
+.div1{
+    display: flex;
+    margin-left: 100px;
+    padding: 50px;
+    background-color: lightyellow;
+    
+}
+.b1,.b2,.b3,.b4,.b5,.b6{
+    width: 300px;
+    height: 100px;
+}
+.aboutus{
+    margin-left: 100px;
+    padding: 50px;
+}
+.div2{
+    display: flex;
+    
+}
+
+.div2>.b7,.b8,.b9,.b10,.b11,.b12>img{
+   padding: 10px;
+    
+
+}
+.scientists{
+    background-color: rgb(231, 223, 223);
+    height: 300px;
+    display: flex;
+    width: 1190px;
+}
+.i1,.i2,.i3,.i4,.i5,.i6,.i7{
+    padding: 10px;
+}
+    
+.scientists> img{
+ width: 100px;
+ height: 100px; 
+ margin-left: 50px; 
+ padding: 10px;  
+}
+.Sponsored{
+    background-color: brown;
+    display: flex;
+    padding: 50px;
+    width: 1190px;
+}
+.t2,.t3{
+    margin-left: 100px;
+}
+.programes{
+    display: flex;
+    background-color: lavender;
+    width: 1190px;
+    padding: 40px;
+}
+button{
+    color:  white;
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+
+}
+.phd{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+.RESOURCES{
+    background-color: lightgray;
+    width: 1190px;
+
+}
+.fundings>img{
+    margin-left: 50px;
+    
+}
+.questions{
+    background-color: lightyellow;
+    width: 1190px;
+}
+.dropdowncontent{
+    display: none;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+}
+.dc1{
+    display: none;
+}
+.dp1:hover .dc1{
+    display: block;
+}
+.dc2{
+    display: none;
+}
+.dp2:hover .dc2{
+    display: block;
+}
+.dc3{
+    display: none;
+}
+.dp3:hover .dc3{
+    display: block;
+}
+.dc4{
+    display: none;
+}
+.dp4:hover .dc4{
+    display: block;
+}
+p{
+    font-size: 20px;
+}
+
+.div1>div{
+    border:2px solid red;
+}
+
+/* @media (max-width:768px){
+    .Sponsored{
+        flex-direction:column;
+    }
+    .Sponsored>div>h3{
+       width:100px;
+    }
+    .Sponsored>div>p{
+        width:300px;
+     }
+} */
+/* mobile */
+
+
+@media (max-width:768px){
+    .t2>p{
+        /* width:1000px; */
+        margin-left:900px;
+    }
+    .t3>p{
+     margin-left:500px;
+    }
+}
+
+@media (max-width:426px) {
+    .if>iframe{
+        width: 300px;
+        margin-left: -80px;
+        margin-top: 20px;
+       
+    }
+    .div1{
+        flex-direction: column;
+        width: 100%;
+        margin-left: -33px;
+    }
+    .div1>.b1{
+        width: 300px;
+        height: 100px;
+        flex-direction: column;
+        margin-left: px;
+    }
+    .aboutus{
+        margin-left: -30px;
+        width: 400px;
+        text-align: justify;
+    }
+    .div2{
+        display: block;
+        text-align: center;
+    }
+    .scientists{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .scientists,.il,.i2,.i3,.i4,.i5,.i6,.i7{
+        background-color: lightgray;
+    }
+    .scientists,.il>img,.i2>img,.i3>img,.i4>img,.i5>img,.i6>img,.i7>img{
+        margin-left: 50px;
+    }
+    .Sponsored{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1450px;
+    }
+    .Sponsored>.t1{
+        width: 300px;
+        height: 200px;
+        margin-left: -40px;
+        flex-direction: column;
+    }
+    
+    .Sponsored>.t2{
+        margin-top: 260px;
+        margin-left: -870px;
+    
+    }
+    .t3{
+        margin-left: -870px;
+        margin-top: 10px;
+
+    }
+    .programes{
+        flex-direction: column;
+        width: 100%;
+    }
+    .phd{
+        flex-direction: column;
+        width: 100%;
+    }
+    .RESOURCES{
+        flex-direction: column;
+        width: 100%;
+    }
+    button{
+        margin-left: 70px;
+    }
+    .p2>a>button{
+       margin-left: 27px;
+    }
+    .fundings>img{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .questions{
+        width: 100%;
+    }
+}
